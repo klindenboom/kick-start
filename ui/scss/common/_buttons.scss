@@ -1,0 +1,44 @@
+// Buttons
+//
+// Use the standard, but classy, <code>.btn</code> for form actions and primary page actions. These are used extensively around the site.
+//
+// Compatible in IE6+, Firefox 2+, Safari 4+.
+//
+// Markup:
+// <a href="#" class="btn {$modifiers}">Button (a.btn)</a>
+// <button class="btn {$modifiers}">Button (button.btn)</button>
+//
+// :hover               - Highlight the button when hovered.
+// :active              - "Press" the button down when clicked.
+// :disabled            - Make the button change appearance to reflect it being disabled.
+// .btn-default         - A default button style.
+// .btn-primary         - Indicate that the button is the primary feature of this form.
+// .btn-warning         - A warning button.
+// .btn-danger          - A danger button.
+// .btn-success         - A success button.
+// .btn-info            - An info button.
+//
+// Styleguide 2.1
+.btn {
+    padding: 5px 15px;
+
+    font-family: "Helvetica Neue", Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: normal;
+
+    color: #666;
+    border: 1px solid #ddd;
+    border-bottom-color: #bbb;
+    border-radius: 3px;
+    background: -moz-linear-gradient(top, #f5f5f5, #e5e5e5);
+    background: #f5f5f5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.9);
+
+    cursor: pointer;
+    transition: width 0.2s ease-in;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='$start', endColorstr='$end');
+}

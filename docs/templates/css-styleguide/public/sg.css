@@ -1,0 +1,200 @@
+* {
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+}
+
+.sg-cf {
+	*zoom: 1;
+}
+.sg-cf:before, .sg-cf:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.sg-cf:after {
+	clear: both;
+}
+
+tt, code, pre {
+	font-family: Consolas, "Liberation Mono", Courier, monospace;
+	font-size: 12px;
+}
+
+.top-link {
+	text-align: right;
+	padding-right: 1em;
+}
+
+.sg-container {
+	max-width: 1440px;
+	margin: 0 2%;
+}
+
+#sg-wrapper {
+
+}
+
+#sg-header {
+
+}
+
+#sg-nav, #sg-content {
+	float: left;
+}
+
+#sg-nav {
+	width: 20%;
+	padding: 3px;
+	background: #efefef;
+	border-radius: 2px;
+}
+
+.sg-menu {
+	margin: 0;
+	padding: 0;
+	background: #fafafb;
+	border: 1px solid #d8d8d8;
+	border-radius: 2px;
+	list-style: none;
+}
+
+.sg-menu li {
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #fff;
+}
+
+.sg-menu li:first-child {
+	border-top: none;
+}
+
+.sg-menu li:last-child {
+	border-bottom: none;
+}
+
+.sg-menu a {
+	display: block;
+	padding: 8px 10px 8px 8px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	border-left: 2px solid #fafafb;
+}
+
+.sg-menu-active {
+	border-right: 2px solid red;
+	font-weight: bold;
+}
+
+#sg-content {
+	width: 80%;
+	padding-left: 20px;
+}
+
+#sg-content > section {
+	margin: 15px auto;
+	background: rgba(255,255,255,0.5);
+	border: 1px solid #ddd;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#sg-content > .sg-page-title {
+	font-size: 2em;
+}
+
+#sg-content h3 {
+	margin: -1px -1px 0;
+	padding: 10px;
+	color: #fff;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background: #333;
+	border-top: 1px solid #000;
+}
+
+.sg-desc {
+	padding: 1em 1em 0.5em;
+	background: #f1f1f1;
+	border-bottom: 1px solid #ddd;
+}
+
+.sg-desc code {
+	margin: 0;
+	border: 1px solid #ddd;
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	max-width: 100%;
+	display: inline-block;
+	overflow: auto;
+	vertical-align: middle;
+	line-height: 1.3;
+	padding: 0;
+}
+
+.sg-modifier {
+	margin: 0.8em 0;
+}
+
+.sg-modifier li {
+	padding: 0.2em 0;
+}
+
+.sg-modifier li p {
+	display: inline;
+}
+
+.sg-element {
+	position: relative;
+	padding: 20px;
+}
+
+.sg-element + .sg-element {
+	margin-top: -5px;
+	padding-top: 15px;
+	border-top: 1px solid #eee;
+}
+
+.sg-modifier-name {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px 15px;
+	font-size: 11px;
+	/*color: #999;*/
+	background: #f9f9f9;
+	border: 1px solid #eee;
+	border-top: none;
+}
+
+/* Markup area is where code sample is displayed */
+.sg-markup {
+	padding: 15px 15px;
+	background: #f8f8f8;
+	border-top: 1px solid #dde7ea;
+	overflow: auto;
+}
+
+.sg-markup pre {
+	font-family: Consolas, "Liberation Mono", Courier, monospace;
+	font-size: 12px;
+}
+
+
+#sg-main {
+
+}
+
+#sg-footer {
+
+}
+
+.sg-legal {
+	text-align: center;
+	font-size: 85%;
+}

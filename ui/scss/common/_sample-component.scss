@@ -1,0 +1,14 @@
+.main {
+    @extend %container;
+    p {
+        max-width: 800px;
+        margin: 1em 0;
+        padding: 1em;
+
+        font-size: 1.2em;
+
+        border-radius: 1em;
+        background: darken(#fff, 5%);
+        box-shadow: 2px 2px 1px rgba(0,0,0,0.2) inset, -1px -1px 0 rgba(0,0,0,0.2) inset;
+    }
+}
