@@ -1,13 +1,12 @@
-# iCF
+# Kick-Start
 
 ## Overview
 
-The ICF (UI Framework) is an internal project intended to the the starting point for all UI web development projects at iCrossing.
-More information and future features are documented at [https://confluence.icrossing.com/display/TCE/ICF+-+iCrossing+UI+Framework](https://confluence.icrossing.com/display/TCE/ICF+-+iCrossing+UI+Framework)
+The Kick-Start (UI Framework) is an project intended to the the starting point for UI web development projects.
 
 ## Dependencies
 
-iCF requires the following software be installed on your workstation.
+Kick-Start requires the following software be installed on your workstation.
 
 * Node.js - [http://nodejs.org/](http://nodejs.org/)
 * bower - [https://github.com/bower/bower](https://github.com/bower/bower)
@@ -56,7 +55,7 @@ That's it. You should be ready to get your code on!
 
 ## Usage
 
-Working on an icf project is easy. Your code goes in ui/:
+Working on an Kick-Start project is easy. Your code goes in ui/:
 
 * Styles are developed as SASS in the scss/ folder. Create a new folder for each section, with a corresponding "main" scss file. For example scss/home/home.scss will become /css/home/home.css. Partials begin with an underscore (ex: _hero.scss) and won't be compiled to a CSS.
 * JavaScript is developed using AMD in the js/ folder. Follow a similar convention to styles: main files are name {section_name}.main.js, partials begin with an underscore.
@@ -67,7 +66,7 @@ Working on an icf project is easy. Your code goes in ui/:
 
 #### Development
 
-iCF has a built-in web server with livereload capabilites. Changes to HTML, JavaScript, or Sass files will automatically be rebuild and reloaded. Running this command will start the web server and automatically launch your default browser with the site loaded.
+Kick-Start has a built-in web server with livereload capabilites. Changes to HTML, JavaScript, or Sass files will automatically be rebuild and reloaded. Running this command will start the web server and automatically launch your default browser with the site loaded.
 
 	grunt
 
